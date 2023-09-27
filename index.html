@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class='hero is-fullheight'>
+            <div class='hero-head'>
+                <button id='learnMore' class='button is-info is-small mt-2'>Learn more</button>
+                <a href='../../../../' class='button is-link is-small mt-2 is-pulled-right'>Return home</a>
+                <section id='titleGroup' class='has-text-centered'>
+                    <h1 class='title is-1'>Babble</h1>
+                    <h2 class='subtitle'>for two or more voices</h2>
+                    <button id='start' class='button is-success'>Start</button>
+                </section>
+            </div>
+            <div class='hero-body'>
+                <div class='columns is-vcentered'>
+                    <div class='column is-10'>
+                        <h2 id='sentence' class='is-size-4-touch is-size-2-desktop'></h2>
+                    </div>
+                    <div class='column is-2'>
+                        <button id='next' class='button is-large is-warning'>Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class='hero-foot'>
+                <h1 id='timer' class='is-size-1 is-family-code has-text-centered'>5:00</h1>
+            </div>
+        </section>
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <section class="modal-card-body">
+                    <section class="content">
+                        <h3 class="has-text-centered">"Come, let us go down, and confuse their language there, so that they will not understand one another’s speech.” Genesis 11:7 NSRV</h3>
+                        <h4>Instructions</h4>
+                        <p class="has-text-justified">
+                            Once you begin, a sentence will appear on screen. Read each word as it's hightlighted, like a sing-along. After you finish reading your sentence, press <span class="has-background-warning">next</span> to load a new sentence. As the timer ticks down, words become much harder to read. Keep up with the highlighting, and read to the best of your ability. The piece is much easier to perform in landscape mode if you are reading on a mobile device 📱.
+                        </p>
+                        <h4>Background</h4>
+                        <p class="has-text-justified">
+                            This piece was inspired by the biblical tale of the <em>Tower of Babel</em>. In the story, the Babylonians began construction of a tower which was as high as the heavens. God punished the workers by confusing their ability to speak with one another. Thus, the workers dispersed all over the globe, resulting in the many languages that exist today. Instead of the piece reaching a critical mass, and having all words become nonsensical, the piece progressively introduces word manipulations to ease you into the chaotic reading that will ensue.
+                        </p>
+                        <h6>Thank you to all of the beta testers how helping me preview the piece. A special thanks to Jack, Taylor, Cameron, and Mom ❤ for listening to my ramblings and helping me refine everything. It would have been much harder without you all!</h6>
+                    </section>
+                </section>      
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="web-elements.js"></script>
+</body>
+</html>
